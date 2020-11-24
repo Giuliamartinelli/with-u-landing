@@ -1,9 +1,11 @@
 .with-u {
   color: $withu-purple;
 }
+
 .thin-writing {
    font-weight: lighter;
 }
+
 a .thin-writing {
   color: black;
   font-size: 20px;
@@ -12,12 +14,35 @@ a .thin-writing {
 
 .with-u-title {
 
-   @media screen and (min-width: 500px) {
+  @media screen and (min-width: 500px) {
     margin: 15px;
     margin-top: 30px;
   }
-
   @media screen and (max-width: 500px) {
     margin-top: 30px;
   }
+}
+.btn-black {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: auto;
+}
+
+a .btn-black :hover{
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: auto;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white;
 }

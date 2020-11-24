@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WithULanding</title>
+    <title>WithU</title>
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="WithU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://withu-digital.herokuapp.com//" />
+    <meta property="og:image" content="<%= asset_path 'with-u-logo2.png' %>" />
+    <meta property="og:description" content="Scopri WithU" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,8 +18,6 @@
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
     <%= yield %>
-    <%= render 'shared/footer' %>
   </body>
 </html>
