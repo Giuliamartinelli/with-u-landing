@@ -15,6 +15,17 @@
   justify-content: center;
 }
 
+.footersimple {
+  background: #F4F4F4;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0px 25px;
+  color: rgba(0,0,0,0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer-links.border-footer {
   border-top-style: solid;
   border-width: thin;
