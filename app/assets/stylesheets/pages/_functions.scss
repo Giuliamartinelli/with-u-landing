@@ -1,3 +1,6 @@
+.header-functions {
+
+}
 .phone-screen-1{
   margin-top: 160px;
   width: 50%;
@@ -7,9 +10,11 @@
   @media screen and (min-width: 500px) {
     width: 20%;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
   @media screen and (max-width: 500px) {
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -17,6 +22,8 @@
   display: block;
   @media screen and (min-width: 500px) {
     width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   @media screen and (max-width: 500px) {
     width: 40%;
@@ -27,6 +34,8 @@
   display: block;
   @media screen and (min-width: 500px) {
     width: 15%;
+    margin-left: 15%;
+    margin-right: 5%;
   }
   @media screen and (max-width: 500px) {
     width: 40%;
@@ -38,32 +47,87 @@
   display: flex;
   align-items: center;
   margin-top: 30px;
+  @media screen and (min-width: 500px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 .desc-right {
   width: 40%;
   margin-left: 10%;
   margin-right: 5%;
+  @media screen and (min-width: 500px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 .desc-left {
   width: 40%;
   margin-left: 5%;
   margin-right: 10%;
+  @media screen and (min-width: 500px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 .desc {
   font-size: 20px;
   margin-top: 2px;
   font-weight: lighter;
-}
-.with-u-desc {
-  color: $withu-purple;
-
-}
-.purple-writing-desc h1{
-
   @media screen and (min-width: 500px) {
-    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+  }
+}
+
+.tool {
+  @media screen and (min-width: 500px) {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+#observed {
+  font-size: 30px;
+  @media screen and (min-width: 500px) {
+    font-size: 30px;
   }
   @media screen and (max-width: 500px) {
-    font-size: 24px;
+    font-size: 25px;
+
+  }
+}
+
+#followed {
+
+  @media screen and (min-width: 500px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+
+  }
+}
+.team-desc {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f4f4f4;
+    font-weight: bolder;
+  @media screen and (min-width: 500px) {
+    margin-left: 14%;
+    margin-right: 14%;
+
+
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

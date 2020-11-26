@@ -1,0 +1,32 @@
+.with-u-desc {
+  color: $withu-purple;
+}
+
+.header-functions .with-u-title h1 {
+  @media screen and (min-width: 500px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+  }
+}
+
+.with-u {
+  color: $withu-purple;
+}
+.with-u-little {
+  color: $withu-purple;
+  font-size: 24px;
+  margin-top: 2px;
+  font-weight: lighter;
+}
+
+.with-u-title {
+  @media screen and (min-width: 500px) {
+    margin: 10px;
+    // margin-top: 30px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+  }
+}
