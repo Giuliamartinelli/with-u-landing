@@ -5,19 +5,16 @@
 
   <div class="left-header">
     <div class="with-u-title d-flex justify-content-center">
-      <h1>La nostra<h1 class="with-u ml-2"> Soluzione</h1></h1>
+      <h1>La nostra<h1 class="with-u ml-2">Soluzione</h1></h1>
     </div>
     <div class="text-center">
-      <h1 class="tool">Vogliamo darti uno strumento <br> capace  di farti sentire <h1 class="with-u ml-2" style="font-size: 30px;">sicura</h1></h1>
+      <h1 class="tool">Vogliamo darti uno strumento <br> capace  di farti sentire <span class="with-u">sicura</span></h1>
     </div>
     <div class="purple-writing-title d-flex justify-content-center">
-      <h1>Il<h1 class="with-u ml-2"> problema</h1></h1>
+      <h1>Il<h1 class="with-u ml-2">problema</h1></h1>
     </div>
     <div class="purple-writing text-center">
-      <h1 class="tool">Troppo spesso alle donne<br>capita di sentirsi</h1>
-      <div class="with-u-title d-flex justify-content-center">
-        <h1 class="with-u-little" id="observed">osservate o </h1><h1 class="with-u-little ml-2" id="followed" >seguite</h1>
-      </div>
+      <h1 class="tool">Troppo spesso alle donne<br>capita di sentirsi <span class="with-u">osservate</span> ad una fermata dell'autobus o <span class="with-u">seguite</span> mentre tornano a casa.</h1>
     </div>
   </div>
 
@@ -51,18 +48,17 @@
     </div>
   </div>
 
-
-<div class="function">
-  <div class="desc-right">
-    <div class="purple-writing-desc d-flex justify-content-center">
-      <h1 class="with-u-desc text-center">Call&<h1>connect</h1></h1>
+  <div class="function">
+    <div class="desc-right">
+      <div class="purple-writing-desc d-flex justify-content-center">
+        <h1 class="with-u-desc text-center">Call&<h1>connect</h1></h1>
+      </div>
+      <h1 class="desc text-center">Premi CallAngels. WithU chiama tutti i tuoi Angeli. Appena uno risponde tu riceverai una chiamata dove il tuo Angelo ti sta aspettando.</h1>
     </div>
-    <h1 class="desc text-center">Premi CallAngels. WithU chiama tutti i tuoi Angeli. Appena uno risponde tu riceverai una chiamata dove il tuo Angelo ti sta aspettando.</h1>
+    <%= image_tag "schermatafakecall.png", class: "phone-screen-right" %>
   </div>
-  <%= image_tag "schermatafakecall.png", class: "phone-screen-right" %>
-</div>
 
-<div class="function">
+  <div class="function">
     <%= image_tag "schermataprofile.png", class: "phone-screen-left" %>
     <div class="desc-left">
       <div class="purple-writing-desc d-flex justify-content-center">
@@ -74,10 +70,10 @@
 </div>
 
 <div class="team-desc">
-<h1 class="desc text-center">Dietro ogni App c’è un team con un’idea💡 e tanta voglia di lavorare. Scopri chi siamo ❤️</h1>
-<div class="footer-links">
+  <h1 class="desc text-center">Dietro ogni App c’è un team con un’idea💡 e tanta voglia di lavorare. Scopri chi siamo ❤️</h1>
+  <div class="footer-links">
     <a href="team"><img src="<%= asset_path 'android-icon-36x36.png' %>" class="img-footer"/><h2 class="thin-writing">Team <em>WithU</em></h2></a>
   </div>
 </div>
 
-<%= render 'shared/footer' %>
+<%= render 'shared/footer'%>
