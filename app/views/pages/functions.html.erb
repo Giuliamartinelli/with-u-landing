@@ -2,30 +2,35 @@
 <%= render 'shared/navbar' %>
 
 <div class="header-functions mt-4">
-  <div class="with-u-title d-flex justify-content-center">
-    <h1>La nostra<h1 class="with-u ml-2"> Soluzione</h1></h1>
-  </div>
-  <div class="text-center">
-    <h1 class="tool">Vogliamo darti uno strumento <br> capace  di farti sentire <h1 class="with-u ml-2" style="font-size: 30px;">sicura</h1></h1>
-  </div>
-  <%= image_tag "schermatawelcome.png", class: "phone-screen-1" %>
-  <div class="purple-writing-title d-flex justify-content-center">
-    <h1>Qual'è il<h1 class="with-u ml-2"> problema?</h1></h1>
-  </div>
-  <div class="purple-writing text-center">
-    <h1 class="tool">Troppo spesso alle donne<br>capita di sentirsi</h1>
-  <div class="with-u-title d-flex justify-content-center">
-    <h1 class="with-u-little" id="observed">osservate o </h1><h1 class="with-u-little ml-2" id="followed" >seguite</h1>
+
+  <div class="left-header">
+    <div class="with-u-title d-flex justify-content-center">
+      <h1>La nostra<h1 class="with-u ml-2"> Soluzione</h1></h1>
+    </div>
+    <div class="text-center">
+      <h1 class="tool">Vogliamo darti uno strumento <br> capace  di farti sentire <h1 class="with-u ml-2" style="font-size: 30px;">sicura</h1></h1>
+    </div>
+    <div class="purple-writing-title d-flex justify-content-center">
+      <h1>Il<h1 class="with-u ml-2"> problema</h1></h1>
+    </div>
+    <div class="purple-writing text-center">
+      <h1 class="tool">Troppo spesso alle donne<br>capita di sentirsi</h1>
+      <div class="with-u-title d-flex justify-content-center">
+        <h1 class="with-u-little" id="observed">osservate o </h1><h1 class="with-u-little ml-2" id="followed" >seguite</h1>
+      </div>
+    </div>
   </div>
 
+  <div class="right-header">
+    <%= image_tag "schermatawelcome.png", class: "phone-screen-1" %>
   </div>
-  <div class="purple-writing-title mt-4 d-flex justify-content-center">
-    <h1>Come aiuta<h1 class="with-u ml-2">WithU?</h1></h1>
-  </div>
+
 </div>
 
 <div class="body-functions">
-
+  <div class="purple-writing-title mt-4 d-flex justify-content-center">
+    <h1>Come aiuta<h1 class="with-u ml-2">WithU?</h1></h1>
+  </div>
   <div class="function">
     <div class="desc-right">
       <div class="purple-writing-desc d-flex justify-content-center">
@@ -74,19 +79,5 @@
     <a href="team"><img src="<%= asset_path 'android-icon-36x36.png' %>" class="img-footer"/><h2 class="thin-writing">Team <em>WithU</em></h2></a>
   </div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 <%= render 'shared/footer' %>

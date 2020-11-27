@@ -1,5 +1,31 @@
 .header-functions {
+   @media screen and (min-width: 500px) {
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 500px) {
 
+  }
+}
+
+.left-header {
+  @media screen and (min-width: 500px) {
+    margin-right: 5%;
+    margin-left: 15%;
+    background-color: #f4f4f4;
+  }
+  @media screen and (max-width: 500px) {
+
+  }
+}
+
+.right-header {
+  @media screen and (min-width: 500px) {
+
+  }
+  @media screen and (max-width: 500px) {
+
+  }
 }
 .phone-screen-1{
   margin-top: 160px;
@@ -8,7 +34,7 @@
   margin-left: auto;
   margin-right: auto;
   @media screen and (min-width: 500px) {
-    width: 20%;
+    width: 40%;
     margin-top: 30px;
     margin-bottom: 30px;
   }
